@@ -1,0 +1,33 @@
+html,body, div, dl, dt, dd, ul, li, h1, h2, h3, h4, h5, h6, figure, input, form, button, img, a, p, textarea{
+	margin: 0;
+	padding: 0;
+	font-family: '微软雅黑';
+}
+div {
+	font-size: 14px;
+}
+blockquote, fieldset, hr, legend, pre, td, th {
+	margin: 0;
+	padding: 0;
+}
+ul, ol, li {
+	list-style: none;
+}
+fieldset, form {
+	border: none;
+}
+a {
+	text-decoration: none;
+}
+
+img {
+	border: none;
+	display: block;
+}
+.clear {
+	overflow: hidden;
+	clear: both;
+}
+* {
+	font-family: Arial,sans-serif
+}
