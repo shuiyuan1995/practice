@@ -1,0 +1,66 @@
+body {
+	background: url(../img/index_011.png) repeat;
+}
+.tt {
+	color: #d7d7d7;
+	font-size: 26px;
+	padding: 20px;
+}
+.xiangmu {
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	-khtml-border-radius: 6px;
+	border-radius: 6px;
+	background: url(../img/bgt.png) repeat;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+div[contenteditable] {
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-khtml-border-radius: 4px;
+	border-radius: 4px;
+	color: #d7d7d7;
+	font-size: 16px;
+	text-align: center;
+	background: url(../img/bgt.png) repeat;
+	padding: 5px 0px;
+}
+.img {
+	background: url(../img/index_05.png) no-repeat;
+	width: 945px;
+	height: 37px;
+	padding: 14px 11px;
+	margin: 0 auto;
+}
+.c {
+	width: 40px;
+	height: 40px;
+	float: left;
+	cursor: pointer;
+}
+.bfb {
+	width: 140px;
+	height: 27px;
+	float: left;
+	padding-top: 13px;
+}
+.img img {
+	height: 13px;
+	display: block;
+}
+.miaoshu {
+	position: relative;
+	color: #7b7b7b;
+}
+.allmiaoshu {
+	margin-left: 13px;
+	border-radius: 11px;
+	background: url(../img/bgt.png) repeat;
+	padding: 10px;
+	display: inline-block;
+	width: 225px;
+	height: auto;
+	position: absolute;
+	top: 10px;
+}
