@@ -1,0 +1,66 @@
+/*重置*/
+html,body, div, dl, dt, dd, ul, li, h1, h2, h3, h4, h5, h6, figure, input, form, button, img, a, p, textarea{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	line-height: 1;
+}
+blockquote, fieldset, hr, legend, pre, td, th {
+	margin: 0;
+	padding: 0;
+}
+ul, ol, li {
+	list-style: none;
+}
+fieldset, form {
+	border: none;
+}
+a {
+	text-decoration: none;
+}
+
+img {
+	border: none;
+	display: block;
+}
+.clear {
+	overflow: hidden;
+	clear: both;
+}
+* {
+	font-family: Arial,sans-serif
+}
+/*旋转木马样式*/
+.poster-main{
+	width: 800px;
+	height: 270px;
+	position: relative;
+}
+.poster-main .poster-list {
+	width: 800px;
+	height: 270px;
+}
+.poster-main .poster-list .poster-item {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.poster-main .poster-btn {
+	width: 100px;
+	height: 270px;
+	top: 0;
+	position: absolute;
+	z-index: 10;
+	cursor: pointer;
+}
+.poster-main .poster-prev-btn {
+	left: 0;
+	background: url(../img/btn_l.png) no-repeat center center;
+}
+.poster-main .poster-next-btn {
+	right: 0;
+	background: url(../img/btn_r.png) no-repeat center center;
+}
+
