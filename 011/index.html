@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>jQuery滑动加载进度条代码</title>
+	<style type="text/css">
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	.votebox {
+		width: 200px;
+		margin: 120px auto 0 auto;
+		text-align: left;
+		position: relative;
+		z-index: 66;
+	}
+	.barbox {
+		height: 16px;
+		line-height: 16px;
+		overflow: hidden;
+	}
+	.barbox dd.barline {
+		width: 200px;
+		background: url(img/jdtbg.png) left center no-repeat;
+		height: 16px;
+		overflow: hidden;
+		display: inline;
+	}
+	.barbox dd {
+		float: left;
+	}
+	.barbox dd.barline div.charts {
+		height: 16px;
+		overflow: hidden;
+		background: url(img/barbg.gif) right center repeat-x;
+		border-radius: 8px;
+	}
+	</style>
+</head>
+<body>
+	<div class="votebox">
+		<dl class="barbox">
+			<dd class="barline">
+				<div w="50" style="width:0px;" class="charts"></div>
+			</dd>
+		</dl>
+		<dl class="barbox">
+			<dd class="barline">
+				<div w="40" style="width:0px;" class="charts"></div>
+			</dd>
+		</dl>
+	</div>
+	<script type="text/javascript" src="../js/jquery.js"></script>
+	<script type="text/javascript">
+	function animate(i) {
+		$(".charts").each(function () {
+			var a = parseInt($(this).attr("w"));
+			$(this).animate({
+				width:a +"%"
+			},i)
+		});
+	};
+	animate(1000);
+	</script>
+	<div style="text-align:center;margin:50px 0; font:normal 14px/24px 'MicroSoft YaHei';">
+		<p>适用浏览器：IE8、360、FireFox、Chrome、Safari、Opera、傲游、搜狗、世界之窗.</p>
+	</div>
+</body>
+</html>
