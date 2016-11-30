@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>jQuery弹性伸缩Tabs选项卡</title>
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<script src="../js/prefixfree.dynamic-dom.min.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="tab-group">
+			<section id="tab1" title="Long Tab Name">
+				<h3>
+					Content1
+				</h3>
+				<p>
+					Aliquam eleifend magna mauris, id egestas eros dictum ac. Vivamus ac turpis at nisi mattis aliquam. In hac habitasse platea dictumst. 
+				</p>
+			</section>
+			<section id="tab2" title="Another Tab">
+				<h3>
+					Content2
+				</h3>
+				<p>
+					Donec congue ligula non risus dictum, eget vehicula diam mattis. Pellentesque at ante ipsum. Suspendisse rutrum elementum dolor, non congue risus sagittis id. 
+				</p>
+			</section>
+			<section id="tab3" title="Tab 3">
+				<h3>
+					Content3
+				</h3>
+				<p>
+					Vivamus sem odio, mattis vel dui aliquet, iaculis lacinia nibh. Vestibulum tincidunt, lacus vel semper pretium, nulla sapien blandit massa, et tempor turpis urna eu mi. 
+				</p>
+			</section>
+			<section id="tab4" title="Another Tab">
+				<h3>
+					Content4
+				</h3>
+				<p>
+					Donec congue ligula non risus dictum, eget vehicula diam mattis. Pellentesque at ante ipsum. Suspendisse rutrum elementum dolor, non congue risus sagittis id.
+				</p>
+			</section>
+			<section id="tab5" title="Another Tab">
+				<h3>
+					Content5
+				</h3>
+				<p>
+					Donec congue ligula non risus dictum, eget vehicula diam mattis. Pellentesque at ante ipsum. Suspendisse rutrum elementum dolor, non congue risus sagittis id.
+				</p>
+			</section>
+		</div>
+	</div>
+	<script type="text/javascript" src="../js/jquery.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+	<script type="text/javascript">
+		$(function () {
+			//Calling the plugin  调用插件
+			$('.tab-group').tabify();
+		});
+	</script>
+	<div style="text-align:center;margin:100px 0 50px; font:normal 14px/24px 'MicroSoft YaHei';">
+		<p>适用浏览器：360、FireFox、Chrome、Safari、Opera、傲游、搜狗、世界之窗. 不支持IE8及以下浏览器。</p>
+	</div>
+</body>
+</html>
