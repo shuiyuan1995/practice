@@ -1,0 +1,211 @@
+/*重置*/
+html,body, div, dl, dt, dd, ul, li, h1, h2, h3, h4, h5, h6, figure, input, form, button, img, a, p, textarea{
+	margin: 0;
+	padding: 0;
+}
+body {
+	line-height: 1;
+}
+blockquote, fieldset, hr, legend, pre, td, th {
+	margin: 0;
+	padding: 0;
+}
+ul, ol, li {
+	list-style: none;
+}
+fieldset, form {
+	border: none;
+}
+a {
+	text-decoration: none;
+}
+
+img {
+	border: none;
+}
+.clear {
+	overflow: hidden;
+	clear: both;
+}
+* {
+	font-family: Arial,sans-serif
+}
+/*全局*/
+html {
+	background: #334 url(../img/background.jpg) repeat-x 0 0;
+}
+body {
+	width: 970px;
+	margin: 20px 136px;
+	border:#667 solid 1px;
+	font: 12px "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+nav {
+	background: url(../img/nav.gif) repeat-x 0 0;
+	height: 28px;
+	border-left: #667 solid 1px;
+	border-right: #667 solid 1px;
+}
+nav ul {
+	margin-left: 100px;
+	border-left: #99a solid 1px;
+	height: 28px;
+}
+nav li {
+	float: left;
+	border-right: #99a solid 1px; 
+}
+nav li a {
+	line-height: 28px;
+	padding: 7px 22px;
+	color: #eef;
+}
+nav li a:hover {
+	background: #eb6;
+	color: #445;
+}
+a {
+	font-weight: bold;
+}
+.selected {
+	background: #799;
+}
+.selected:hover {
+	background: #799;
+	color: #eef;
+}
+article {
+	padding: 20px 100px 30px;
+	background: #edc;
+}
+article h1 {
+	font-size: 24px;
+	margin-bottom: 8px;
+}
+article p {
+	line-height: 24px;
+}
+article a {
+	background: #eb6;
+	color: #345;
+}
+/*index.html*/
+#banner_1 {
+	background: url(../img/banner-1.jpg) no-repeat 0 0;
+	height: 250px;
+}
+#container {
+	width: 150px;
+	height: 150px;
+	position: relative;
+	overflow: hidden;
+	margin: 10px;
+}
+#img_con {
+	position: absolute;
+}
+#frame {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+/*jiqiao.html*/
+#banner_2 {
+	background: url(../img/banner-2.jpg) no-repeat 0 0;
+	height: 250px;
+}
+#jiqiao {
+	margin-bottom: 25px;
+	list-style-type: disc;
+}
+#jiqiao li {
+	list-style-type: disc;
+	margin-bottom: 5px;
+}
+.hide {
+	display: none;
+}
+.hide h2 {
+	font-size: 20px;
+	line-height: 30px;
+}
+.hide p {
+	line-height: 30px;
+}
+/*jineng.html*/
+#banner_3 {
+	background: url(../img/banner-3.jpg) no-repeat 0 0;
+	height: 250px;
+}
+#jineng li {
+	display: inline-block;
+}
+#jineng a {
+	display: inline-block;
+	height: 100px;
+	border: #ba9 solid 1px;
+}
+#des {
+	margin: 10px 0;
+}
+#img_jn {
+	border:#ba9 solid 1px;
+}
+/*paihang.html*/
+#banner_4 {
+	background: url(../img/banner-4.jpg) no-repeat 0 0;
+	height: 250px;
+}
+table {
+	margin-top: 20px;
+	border-spacing: 2px;
+	line-height: 24px;
+}
+th {
+	background: #155;
+	text-align: center;
+	color:#edc;
+	font-weight: bold;
+}
+td {
+	padding: 5px 50px;
+	cursor: pointer;
+}
+.even {
+	background: #ec8;
+}
+.odd {
+	background: #eb6;
+}
+h3 {
+	font-size: 20px;
+	margin: 10px 0;
+}
+dt, dd {
+	float: left;
+}
+dt {
+	margin-right: 10px;
+}
+dd {
+	margin-right: 30px;
+}
+.hover {
+	background: #cba;
+}
+/*lianxi.html*/
+#banner_5 {
+	background: url(../img/banner-5.jpg) no-repeat 0 0;
+	height: 250px;
+}
+input ,textarea {
+	display: block;
+	margin: 5px 0 10px;
+}
+textarea {
+	width: 300px;
+	height: 100px;
+}
+input[type=submit] {
+	padding: 5px 10px;
+}
